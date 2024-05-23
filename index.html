@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sonbol Yassa</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/boutique.css">
+
+<script type="text/javascript" src="js/jquery-1.5.2.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Terminal_Dosis_300.font.js"></script>
+<script type="text/javascript" src="js/atooltip.jquery.js"></script>
+<script src="js/roundabout.js" type="text/javascript"></script>
+<script src="js/roundabout_shapes.js" type="text/javascript"></script>
+<script src="js/jquery.easing.1.2.js" type="text/javascript"></script>
+<script src="js/jquery.boutique.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!-- Coming from new site-->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<style type="text/css">.bg {behavior:url("js/PIE.htc")}</style>
+<![endif]-->
+<script>
+			// Calling Boutique on your HTML element when the document is ready:
+			$(document).ready(function(){
+				$('#boutique').boutique({
+					container_width: 900,
+					front_img_width: 400,
+					frames: 3,
+					behind_opacity: 10,
+					autoplay:true,
+					speed:1200
+				});
+			});
+		</script>
+		
+		<style>
+			#boutique .behind{
+				margin-top: 0;
+			}
+			#boutique .back{
+				margin-top: 0;
+			}
+		</style>
+</head>
+<body id="page1">
+
+  <div class="body2">
+    <div class="body3">
+      <div class="main">
+        <!-- header -->
+        <header>
+          <div class="wrapper">
+            <nav>
+              <ul id="menu">
+                <li id="active"><a href="index.html">Home</a></li>
+                <li><a href="artist.html">Meet The Artist</a></li>
+				<li><a href="portraits.html">Portraits</a></li>
+                <li><a href="folio.html">Other Paintings</a></li>
+                <li class="end"><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="relative">
+			<ul id="boutique">
+				<li><img src="frontCarousel/carousel1.jpg" alt=""></li>
+				<li><img src="frontCarousel/carousel2.jpg" alt=""></li>
+				<li><img src="frontCarousel/carousel3.jpg" alt=""></li>
+			</ul>
+
+                
+                
+          </div>
+        </header>
+        <!-- / header-->
+        <!-- content -->
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<!-- / content -->
+
+<script type="text/javascript">Cufon.now();</script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('#myRoundabout').roundabout({
+        shape: 'square',
+        minScale: 0.93, // tiny!
+        maxScale: 1, // tiny!
+        easing: 'easeOutExpo',
+        clickToFocus: 'true',
+        focusBearing: '0',
+        duration: 800,
+        reflect: true
+    });
+});
+</script>
+
+</html>
